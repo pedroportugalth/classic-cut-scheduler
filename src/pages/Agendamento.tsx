@@ -130,13 +130,6 @@ const Agendamento = () => {
                   </div>
                 </div>
 
-                {/* Map Placeholder */}
-                <div className="rounded-lg border border-border overflow-hidden bg-secondary h-64 flex items-center justify-center">
-                  <div className="text-center text-muted-foreground">
-                    <MapPin className="w-8 h-8 mx-auto mb-2 text-gold" />
-                    <p className="text-sm">Mapa interativo em breve</p>
-                  </div>
-                </div>
               </motion.div>
             </div>
           </div>
