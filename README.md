@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como uma solução digital de baixo custo para peq
 | **Finalidade do Projeto**           | Site institucional e plataforma de agendamento online para a barbearia "The Classic Cut".                   |
 | **Problema Resolvido**              | Simplificação do processo de agendamento, reduzindo ligações e otimizando a gestão de horários do barbeiro. |
 | **Ferramenta Principal (Low-Code)** | **Lovable.dev** (Plataforma de IA Generativa para desenvolvimento Web).                                     |
-| **Link Público**                    | `[**INSERIR LINK PÚBLICO DA APLICAÇÃO AQUI**]`                                                              |
+| **Link Público**                    | https://theclassiccutt.lovable.app                                                                          |
 
 ---
 
@@ -31,7 +31,7 @@ Este projeto demonstra a aplicação de padrões web fundamentais dentro de um a
 
 #### B. Integração Dinâmica
 
-- **Base de Dados Visual:** `[**INSERIR FERRAMENTA DE DADOS AQUI: Airtable/Notion/Supabase**]`
+- **Base de Dados Visual:** Supabase.
 - **Finalidade da Integração:** Gerenciar e armazenar todos os agendamentos realizados através do formulário, garantindo a dinamicidade da aplicação.
 
 ---
