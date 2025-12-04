@@ -16,6 +16,8 @@ export type Database = {
     Tables: {
       appointments: {
         Row: {
+          appointment_date: string
+          appointment_time: string
           created_at: string
           email: string
           id: string
@@ -23,6 +25,8 @@ export type Database = {
           service: string
         }
         Insert: {
+          appointment_date: string
+          appointment_time: string
           created_at?: string
           email: string
           id?: string
@@ -30,6 +34,8 @@ export type Database = {
           service: string
         }
         Update: {
+          appointment_date?: string
+          appointment_time?: string
           created_at?: string
           email?: string
           id?: string
