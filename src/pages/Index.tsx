@@ -36,7 +36,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>The Classic Cut | Barbearia Premium em São Paulo</title>
+        <title>The Classic Cut | Barbearia Premium em Niterói</title>
         <meta
           name="description"
           content="A barbearia premium de São Paulo. Cortes clássicos, barbas impecáveis e tratamentos exclusivos. Agende seu horário."
@@ -65,8 +65,7 @@ const Index = () => {
                 Excelência em Cada Detalhe
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Oferecemos uma gama completa de serviços para homens que valorizam
-                qualidade e tradição.
+                Oferecemos uma gama completa de serviços para homens que valorizam qualidade e tradição.
               </p>
             </motion.div>
 
@@ -113,20 +112,17 @@ const Index = () => {
                 {
                   icon: Award,
                   title: "Profissionais Experientes",
-                  description:
-                    "Nossa equipe possui anos de experiência e treinamento contínuo.",
+                  description: "Nossa equipe possui anos de experiência e treinamento contínuo.",
                 },
                 {
                   icon: Clock,
                   title: "Pontualidade",
-                  description:
-                    "Respeitamos seu tempo. Agendamentos sem atrasos.",
+                  description: "Respeitamos seu tempo. Agendamentos sem atrasos.",
                 },
                 {
                   icon: Users,
                   title: "Ambiente Exclusivo",
-                  description:
-                    "Espaço confortável e elegante para uma experiência completa.",
+                  description: "Espaço confortável e elegante para uma experiência completa.",
                 },
               ].map((feature, index) => (
                 <motion.div
@@ -140,9 +136,7 @@ const Index = () => {
                   <div className="w-16 h-16 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-4">
                     <feature.icon className="w-8 h-8 text-gold" />
                   </div>
-                  <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-                    {feature.title}
-                  </h3>
+                  <h3 className="font-display text-xl font-semibold text-foreground mb-2">{feature.title}</h3>
                   <p className="text-muted-foreground">{feature.description}</p>
                 </motion.div>
               ))}
@@ -169,12 +163,10 @@ const Index = () => {
               className="max-w-3xl mx-auto text-center"
             >
               <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-                Pronto para o{" "}
-                <span className="text-gradient-gold">Corte Perfeito</span>?
+                Pronto para o <span className="text-gradient-gold">Corte Perfeito</span>?
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
-                Agende seu horário agora e descubra por que somos a barbearia
-                preferida de São Paulo.
+                Agende seu horário agora e descubra por que somos a barbearia preferida de Niterói.
               </p>
               <Button variant="gold" size="xl" asChild>
                 <Link to="/agendamento">
