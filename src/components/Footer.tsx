@@ -12,9 +12,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center shadow-gold">
                 <Scissors className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="font-display text-xl font-semibold text-foreground">
-                The Classic Cut
-              </span>
+              <span className="font-display text-xl font-semibold text-foreground">The Classic Cut</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               Tradição e estilo em cada corte. Sua barbearia premium desde 2010.
@@ -23,9 +21,7 @@ export function Footer() {
 
           {/* Links */}
           <div>
-            <h4 className="font-display text-lg font-semibold text-foreground mb-4">
-              Links Rápidos
-            </h4>
+            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               {[
                 { href: "/", label: "Home" },
@@ -33,10 +29,7 @@ export function Footer() {
                 { href: "/agendamento", label: "Agendamento" },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link
-                    to={link.href}
-                    className="text-muted-foreground hover:text-gold transition-colors text-sm"
-                  >
+                  <Link to={link.href} className="text-muted-foreground hover:text-gold transition-colors text-sm">
                     {link.label}
                   </Link>
                 </li>
@@ -46,13 +39,15 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display text-lg font-semibold text-foreground mb-4">
-              Contato
-            </h4>
+            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Contato</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-gold mt-0.5" />
-                <span>Rua das Barbearias, 123<br />Centro - São Paulo, SP</span>
+                <span>
+                  Rua Sete de Setembro, 123
+                  <br />
+                  Icaraí - Niterói, RJ
+                </span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-gold" />
@@ -67,9 +62,7 @@ export function Footer() {
 
           {/* Social */}
           <div>
-            <h4 className="font-display text-lg font-semibold text-foreground mb-4">
-              Redes Sociais
-            </h4>
+            <h4 className="font-display text-lg font-semibold text-foreground mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
               <a
                 href="#"
