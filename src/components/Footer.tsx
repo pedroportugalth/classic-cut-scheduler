@@ -51,7 +51,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-gold" />
-                <span>(21)99999-9999</span>
+                <span>(21) 99999-9999</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Clock className="w-4 h-4 text-gold" />
