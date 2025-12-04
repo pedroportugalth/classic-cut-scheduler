@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+### 💈 The Classic Cut
 
-## Project info
+_Website de Agendamento Online para Barbearia_
 
-**URL**: https://lovable.dev/projects/ddef1687-6b8f-4ba4-b725-5d2d88451b39
+Este projeto foi desenvolvido como uma solução digital de baixo custo para pequenos negócios locais, utilizando uma abordagem **Low-Code/No-Code** combinada com **personalização de código** (HTML, CSS, JS) para garantir flexibilidade e adesão aos Padrões Web.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### 1. 🚀 Visão Geral e Link da Aplicação
 
-**Use Lovable**
+| Tópico                              | Detalhe                                                                                                     |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Finalidade do Projeto**           | Site institucional e plataforma de agendamento online para a barbearia "The Classic Cut".                   |
+| **Problema Resolvido**              | Simplificação do processo de agendamento, reduzindo ligações e otimizando a gestão de horários do barbeiro. |
+| **Ferramenta Principal (Low-Code)** | **Lovable.dev** (Plataforma de IA Generativa para desenvolvimento Web).                                     |
+| **Link Público**                    | `[**INSERIR LINK PÚBLICO DA APLICAÇÃO AQUI**]`                                                              |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ddef1687-6b8f-4ba4-b725-5d2d88451b39) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 2. 🛠️ Tecnologias e Integrações
 
-**Use your preferred IDE**
+Este projeto demonstra a aplicação de padrões web fundamentais dentro de um ambiente Low-Code.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+#### A. Padrões Web Integrados
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Padrão         | Aplicação na Ferramenta                                                                                                                                               |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HTML**       | Estrutura base gerada pelo Lovable. Uso de `HTML Embed` para inserir o widget de WhatsApp.                                                                            |
+| **CSS**        | Estilização principal gerada pelo Lovable. **CSS Customizado Injetado** para alterar cores, fontes e adicionar efeitos `hover` na seção de [**Ex: Serviços/Botões**]. |
+| **JavaScript** | Lógica de interface e interatividade básica gerada pela IA.                                                                                                           |
 
-Follow these steps:
+#### B. Integração Dinâmica
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Base de Dados Visual:** `[**INSERIR FERRAMENTA DE DADOS AQUI: Airtable/Notion/Supabase**]`
+- **Finalidade da Integração:** Gerenciar e armazenar todos os agendamentos realizados através do formulário, garantindo a dinamicidade da aplicação.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3. ⚙️ Funcionalidades e Instruções de Uso
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+O site oferece as seguintes funcionalidades principais:
 
-**Edit a file directly in GitHub**
+| Funcionalidade                     | Instrução de Uso                                                                                                                                                                                  |
+| :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Navegação Institucional**        | O cliente pode acessar as seções `Home`, `Serviços` e `Localização`.                                                                                                                              |
+| **Agendamento Online**             | 1. O cliente acessa a seção `Agendamento`. 2. Preenche os campos obrigatórios (Nome, Email, Serviço, Data/Hora). 3. Clica em `Agendar Agora`. 4. O agendamento é registrado em `[Base de Dados]`. |
+| **Contato Direto (Personalizado)** | O botão flutuante de **WhatsApp** permite contato imediato para dúvidas ou remarcações.                                                                                                           |
+| **Responsividade**                 | A aplicação é totalmente acessível em dispositivos móveis (celular e tablet).                                                                                                                     |
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 4. 🎨 Customização Manual (Low-Code/Código)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Para demonstrar o domínio de personalização e agregar valor, os seguintes elementos foram customizados manualmente com código:
 
-## What technologies are used for this project?
+| Elemento Customizado                                           | Tipo de Código                         | Valor Agregado                                                                                          |
+| :------------------------------------------------------------- | :------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **[INSERIR ELEMENTO 1 AQUI: Ex: Botões Principais]**           | **CSS Customizado** (`<style>...` tag) | [**DESCREVER VALOR: Ex: Alinhamento com a identidade visual premium e melhoria da usabilidade.**]       |
+| **[INSERIR ELEMENTO 2 AQUI: Ex: Widget de Contato Flutuante]** | **HTML/CSS Embed**                     | [**DESCREVER VALOR: Ex: Adiciona um canal de comunicação instantâneo e vital para pequenos negócios.**] |
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 5. ♿ Acessibilidade e Ética Digital
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ddef1687-6b8f-4ba4-b725-5d2d88451b39) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Acessibilidade:** Uso de títulos semânticos (`<h1>`, `<h2>`) e texto alternativo (`alt` tags) nas imagens. Garantia de **contraste de cores** suficiente.
+- **Ética Digital:** Coleta de dados limitada ao estritamente necessário para o agendamento (Nome, Contato e Serviço), respeitando a privacidade do usuário.
