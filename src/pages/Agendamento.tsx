@@ -43,8 +43,7 @@ const Agendamento = () => {
                 Reserve Seu <span className="text-gradient-gold">Horário</span>
               </h1>
               <p className="text-muted-foreground text-lg">
-                Preencha o formulário abaixo e nossa equipe entrará em contato
-                para confirmar seu agendamento.
+                Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar seu agendamento.
               </p>
             </motion.div>
           </div>
@@ -67,12 +66,8 @@ const Agendamento = () => {
                       <Calendar className="w-6 h-6 text-gold" />
                     </div>
                     <div>
-                      <h2 className="font-display text-2xl font-semibold text-foreground">
-                        Formulário de Agendamento
-                      </h2>
-                      <p className="text-sm text-muted-foreground">
-                        Preencha seus dados
-                      </p>
+                      <h2 className="font-display text-2xl font-semibold text-foreground">Formulário de Agendamento</h2>
+                      <p className="text-sm text-muted-foreground">Preencha seus dados</p>
                     </div>
                   </div>
                   <BookingForm />
@@ -88,12 +83,8 @@ const Agendamento = () => {
                 className="space-y-8"
               >
                 <div>
-                  <h2 className="font-display text-2xl font-semibold text-foreground mb-4">
-                    Informações de Contato
-                  </h2>
-                  <p className="text-muted-foreground">
-                    Prefere ligar? Entre em contato diretamente conosco.
-                  </p>
+                  <h2 className="font-display text-2xl font-semibold text-foreground mb-4">Informações de Contato</h2>
+                  <p className="text-muted-foreground">Prefere ligar? Entre em contato diretamente conosco.</p>
                 </div>
 
                 <div className="space-y-6">
@@ -102,15 +93,13 @@ const Agendamento = () => {
                       <MapPin className="w-6 h-6 text-gold" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">
-                        Endereço
-                      </h3>
+                      <h3 className="font-semibold text-foreground mb-1">Endereço</h3>
                       <p className="text-muted-foreground">
-                        Rua das Barbearias, 123
+                        Rua Sete de Setembro, 123
                         <br />
-                        Centro - São Paulo, SP
+                        Icaraí - Niterói, RJ
                         <br />
-                        CEP: 01000-000
+                        CEP: 12345-543
                       </p>
                     </div>
                   </div>
@@ -120,13 +109,9 @@ const Agendamento = () => {
                       <Phone className="w-6 h-6 text-gold" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">
-                        Telefone
-                      </h3>
-                      <p className="text-muted-foreground">(11) 99999-9999</p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        WhatsApp disponível
-                      </p>
+                      <h3 className="font-semibold text-foreground mb-1">Telefone</h3>
+                      <p className="text-muted-foreground">(21) 99999-9999</p>
+                      <p className="text-sm text-muted-foreground mt-1">WhatsApp disponível</p>
                     </div>
                   </div>
 
@@ -135,9 +120,7 @@ const Agendamento = () => {
                       <Clock className="w-6 h-6 text-gold" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-1">
-                        Horário de Funcionamento
-                      </h3>
+                      <h3 className="font-semibold text-foreground mb-1">Horário de Funcionamento</h3>
                       <div className="text-muted-foreground space-y-1">
                         <p>Segunda a Sexta: 9h às 20h</p>
                         <p>Sábado: 9h às 18h</p>
