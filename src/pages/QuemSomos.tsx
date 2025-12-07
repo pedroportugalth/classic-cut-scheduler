@@ -58,7 +58,8 @@ export default function QuemSomos() {
         {/* Hero Section */}{" "}
         <section className="relative py-24 overflow-hidden">
           {" "}
-          <div className="absolute inset-0 bg-gradient-to-b from-card to-background" />{" "}
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1503264116251-35a269479413?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3')] bg-cover bg-center"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/70"></div>{" "}
           <div className="absolute inset-0 opacity-10">
             {" "}
             <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gold rounded-full blur-3xl" />{" "}
