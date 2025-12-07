@@ -133,22 +133,31 @@ export default function QuemSomos() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative"
               >
-                {" "}
-                <div className="aspect-[4/5] rounded-3xl bg-gradient-to-br from-charcoal-light to-charcoal overflow-hidden border border-border/50">
-                  {" "}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    {" "}
-                    <div className="text-center p-8">
-                      {" "}
-                      <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center glow-gold">
-                        {" "}
-                        <span className="font-display text-3xl font-bold text-primary-foreground">14+</span>{" "}
-                      </div>{" "}
-                      <p className="text-gold font-medium text-lg">Anos de Experiência</p>{" "}
-                      <p className="text-muted-foreground mt-2">Cuidando do estilo masculino</p>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>{" "}
+                <div className="rounded-3xl py-20 px-10 bg-gradient-to-b from-black/40 to-black/10 backdrop-blur-sm border border-gold/10 shadow-[0_0_40px_rgba(255,150,0,0.05)] flex flex-col items-center justify-center">
+                  {/* Círculo Dourado Premium */}
+                  <div className="relative mb-6">
+                    <div
+                      className="
+        w-32 h-32 
+        rounded-full 
+        bg-gradient-to-br from-gold to-gold-dark 
+        shadow-[0_0_40px_rgba(255,160,0,0.35)] 
+        flex items-center justify-center
+        border border-gold/20
+      "
+                    >
+                      <span className="text-4xl font-semibold text-black/90">14+</span>
+                    </div>
+
+                    {/* Glow externo */}
+                    <div className="absolute inset-0 rounded-full blur-3xl bg-gold/20 opacity-40"></div>
+                  </div>
+
+                  {/* Textos */}
+                  <h3 className="text-xl font-semibold text-gold tracking-wide">Anos de Experiência</h3>
+
+                  <p className="text-muted-foreground mt-2 text-sm">Cuidando do estilo masculino</p>
+                </div>
               </motion.div>{" "}
             </div>{" "}
           </div>{" "}
