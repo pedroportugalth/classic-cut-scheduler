@@ -53,10 +53,10 @@ O site oferece as seguintes funcionalidades principais:
 
 Para demonstrar o domínio de personalização e agregar valor, os seguintes elementos foram customizados manualmente com código:
 
-| Elemento Customizado                                           | Tipo de Código                         | Valor Agregado                                                                                          |
-| :------------------------------------------------------------- | :------------------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **[INSERIR ELEMENTO 1 AQUI: Ex: Botões Principais]**           | **CSS Customizado** (`<style>...` tag) | [**DESCREVER VALOR: Ex: Alinhamento com a identidade visual premium e melhoria da usabilidade.**]       |
-| **[INSERIR ELEMENTO 2 AQUI: Ex: Widget de Contato Flutuante]** | **HTML/CSS Embed**                     | [**DESCREVER VALOR: Ex: Adiciona um canal de comunicação instantâneo e vital para pequenos negócios.**] |
+| Elemento Customizado                       | Tipo de Código                                                    | Valor Agregado                                                                                                                                                                                                                                                   |
+| :----------------------------------------- | :---------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Botão "Confirmar Agendamento"**          | **CSS Customizado** (`.btn-classic-cut` injetado no `index.html`) | Alinhamento total com a identidade visual premium da marca (tons bordô e escuros). O uso de **CSS puro** com `!important` e o efeito `transform: translateY` no `hover` demonstra **domínio da cascata e melhoria de UX** (feedback visual).                     |
+| **Widget de Contato Flutuante (WhatsApp)** | **HTML/CSS Embed** (`<a>` e `<style>` no `index.html`)            | Adiciona um **canal de comunicação instantâneo** e vital, garantindo que o cliente possa tirar dúvidas imediatamente. O uso de `position: fixed` no **CSS** e a injeção do **HTML SVG** provam a capacidade de estender a funcionalidade da ferramenta Low-Code. |
 
 ---
 
