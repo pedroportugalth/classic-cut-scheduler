@@ -183,7 +183,7 @@ export default function QuemSomos() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="p-6 rounded-2xl bg-card border border-border/50 hover:border-gold/30 transition-all group"
+                  className="p-6 rounded-2xl bg-card border border-border/50 hover:border-gold/30 transition-all group hover:-translate-y-1 hover:shadow-lg"
                 >
                   {" "}
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold/20 to-gold-dark/20 flex items-center justify-center mb-4 group-hover:from-gold/30 group-hover:to-gold-dark/30 transition-all">
