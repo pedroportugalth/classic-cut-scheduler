@@ -42,8 +42,8 @@ O site oferece as seguintes funcionalidades principais:
 
 | Funcionalidade                     | Instrução de Uso                                                                                                                                                                                  |
 | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Navegação Institucional**        | O cliente pode acessar as seções `Home`, `Serviços` e `Localização`.                                                                                                                              |
-| **Agendamento Online**             | 1. O cliente acessa a seção `Agendamento`. 2. Preenche os campos obrigatórios (Nome, Email, Serviço, Data/Hora). 3. Clica em `Agendar Agora`. 4. O agendamento é registrado em `[Base de Dados]`. |
+| **Navegação Institucional**        | O cliente pode acessar as seções `Home`, `Serviços` e `Agendar Agora`.                                                                                                                              |
+  | **Agendamento Online**             | 1. O cliente acessa a seção `Agendar Agora`. 2. Preenche os campos obrigatórios (Nome, Email, Serviço, Data/Hora). 3. Clica em `Agendar Agora`. 4. O agendamento é registrado no `[Supabase]`. |
 | **Contato Direto (Personalizado)** | O botão flutuante de **WhatsApp** permite contato imediato para dúvidas ou remarcações.                                                                                                           |
 | **Responsividade**                 | A aplicação é totalmente acessível em dispositivos móveis (celular e tablet).                                                                                                                     |
 
