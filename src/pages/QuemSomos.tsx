@@ -134,7 +134,7 @@ export default function QuemSomos() {
                 className="relative"
               >
                 {" "}
-                <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-charcoal-light to-charcoal overflow-hidden border border-border/50">
+                <div className="aspect-[4/5] rounded-3xl bg-gradient-to-br from-charcoal-light to-charcoal overflow-hidden border border-border/50">
                   {" "}
                   <div className="absolute inset-0 flex items-center justify-center">
                     {" "}
