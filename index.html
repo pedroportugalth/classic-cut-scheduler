@@ -55,6 +55,12 @@
           #whatsapp-float:hover {
             transform: scale(1.1);
           }
+
+          /* 🟢 CORREÇÃO: CSS para evitar deformação do SVG */
+          #whatsapp-float svg {
+            display: block;
+            object-fit: contain;
+          }
         </style>
         <script type="module" src="/src/main.tsx"></script>
       </body>
