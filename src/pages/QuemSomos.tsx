@@ -188,7 +188,7 @@ export default function QuemSomos() {
                   {" "}
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gold/20 to-gold-dark/20 flex items-center justify-center mb-4 group-hover:from-gold/30 group-hover:to-gold-dark/30 transition-all">
                     {" "}
-                    <value.icon className="w-6 h-6 text-gold" />{" "}
+                    <value.icon className="w-6 h-6 text-gold transition-transform group-hover:scale-110" />{" "}
                   </div>{" "}
                   <h3 className="font-display text-xl font-semibold mb-2 text-foreground"> {value.title} </h3>{" "}
                   <p className="text-muted-foreground text-sm"> {value.description} </p>{" "}
@@ -230,7 +230,8 @@ export default function QuemSomos() {
                   className="relative pl-8 pb-12 last:pb-0"
                 >
                   {" "}
-                  {/* Timeline line */} <div className="absolute left-0 top-0 bottom-0 w-px bg-border" />{" "}
+                  {/* Timeline line */}{" "}
+                  <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-gold via-border to-gold" />{" "}
                   {/* Timeline dot */}{" "}
                   <div className="absolute left-0 top-1 w-2 h-2 -translate-x-1/2 rounded-full bg-gold glow-gold" />{" "}
                   <span className="inline-block text-gold font-display text-2xl font-bold mb-2"> {item.year} </span>{" "}
@@ -264,7 +265,7 @@ export default function QuemSomos() {
               </p>{" "}
               <a
                 href="/agendamento"
-                className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-gradient-to-r from-gold to-gold-dark text-primary-foreground font-semibold hover:opacity-90 transition-opacity glow-gold"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-gradient-to-r from-gold to-gold-dark text-primary-foreground font-semibold hover:opacity-95 transition-all shadow-md hover:shadow-gold/40"
               >
                 {" "}
                 Agende Sua Visita{" "}
