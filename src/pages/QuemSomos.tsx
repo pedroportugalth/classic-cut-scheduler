@@ -73,4 +73,5 @@ export default function QuemSomos() {
           background-image:
             radial-gradient( rgba(255,255,255,0.02) 1px, transparent 1px ),
             linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.65) 40%),
-            url('https://images.unsplash.com/photo-1503264116251-35a269479413?
+            url('https://images.unsplash.com/photo-1503264116251-35a269479413?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3')
+
