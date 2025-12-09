@@ -138,13 +138,13 @@ export default function QuemSomos() {
                   <div className="relative mb-6">
                     <div
                       className="
-        w-32 h-32 
-        rounded-full 
-        bg-gradient-to-br from-gold to-gold-dark 
-        shadow-[0_0_40px_rgba(255,160,0,0.35)] 
-        flex items-center justify-center
-        border border-gold/20
-      "
+                        w-32 h-32 
+                        rounded-full 
+                        bg-gradient-to-br from-gold to-gold-dark 
+                        shadow-[0_0_40px_rgba(255,160,0,0.35)] 
+                        flex items-center justify-center
+                        border border-gold/20
+                      "
                     >
                       <span className="text-4xl font-semibold text-black/90">14+</span>
                     </div>
